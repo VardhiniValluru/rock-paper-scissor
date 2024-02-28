@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="rps.js" defer></script>
+  <title>Rock-Paper-Scissor</title>
+  <style>
+    #container {
+      position: relative;
+      width: 400px;
+      height: 200px;
+      overflow: hidden;
+    }
+    #cropped-image {
+      position: absolute;
+      bottom: -25px; /* Adjust as needed */
+      left: -50px; /* Adjust as needed */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>
+      ROCK PAPER SCISSORS
+    </h1>
+  </header>
+  
+
+  <div class="score_board">
+  
+    
+    <div id="user_label" class="badge">user</div>
+    <div id="comp_label" class="badge">computer</div>
+    <span id="user_score">0</span>
+    :
+    <span id="computer_score">0 </span>
+
+  </div>
+  <div class="result">
+    <p>
+      CLICK ON THE ONE YOU DESIRE
+    </p>
+  </div>
+  <div class="choices">
+    <div class="choice" id="r">
+      <img src ="./images/rock.png" alt=" "  >
+    </div>
+    <div class="choice" id="p">
+      <img src="./images/88662-200.png" alt="">
+    </div>
+    <div class="choice" id="s">
+      <img src="./images/WhatsApp_Image_2024-02-28_at_18.42.27_5bf260a6-removebg-preview.png" alt="" height="200px" width="200px">
+      
+    </div>  
+    
+  </div>
+  <p id="action_message">Let's rock paper scissor it!</p>
+  
+  
+  
+</body>
+</html>
